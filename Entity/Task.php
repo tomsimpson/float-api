@@ -1,8 +1,8 @@
 <?php
 
-namespace SixBySix\Float\Entity;
+namespace SixBySix\FloatPM\Entity;
 
-use SixBySix\Float\FloatClient;
+use SixBySix\FloatPM\FloatClient;
 use JMS\Serializer\Annotation\Accessor;
 use JMS\Serializer\Annotation\Groups;
 use JMS\Serializer\Annotation\Type;

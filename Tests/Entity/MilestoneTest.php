@@ -1,8 +1,8 @@
 <?php
 
-namespace SixBySix\Float\Tests\Entity;
+namespace SixBySix\FloatPM\Tests\Entity;
 
-use SixBySix\Float\Entity\Milestone;
+use SixBySix\FloatPM\Entity\Milestone;
 
 class MilestoneTest extends AbstractEntityTest
 {

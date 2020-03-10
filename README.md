@@ -6,6 +6,18 @@ You can install this library via [Composer](https://getcomposer.org/download/):
 
 `composer require 6by6/float-api`
 
+Edit composer.json to include
+
+    "repositories":
+    [
+            {
+                "type": "vcs",
+                "url": "https://github.com/tomsimpson/float-api"
+            }
+    ],
+
+Run `Composer Update`
+
 ## Get Started
 
 
@@ -18,7 +30,7 @@ example, Symfony has JMSSerializerBundle). There is further information regardin
 If you want to get setup quickly though, we've included the following shortcut.
 
 ```php
-\SixBySix\Float\Package::registerAnnotations();
+\SixBySix\FloatPM\Package::registerAnnotations();
 ```
 
 
@@ -26,9 +38,9 @@ If you want to get setup quickly though, we've included the following shortcut.
 You'll need to grab your API key from Float ([find out how here](http://support.float.com/knowledge_base/topics/do-you-have-an-api-2)). 
 
 ```php
-use SixBySix\Float;
+use SixBySix\FloatPM;
 
-Float\FloatClient::setApiKey("INSERT_YOUR_API_KEY");
+FloatPM\FloatClient::setApiKey("INSERT_YOUR_API_KEY");
 ```
  
 
@@ -36,9 +48,9 @@ Float\FloatClient::setApiKey("INSERT_YOUR_API_KEY");
 You're ready to go.
 
 ```php
-use SixBySix\Float\Entity\Person;
-use SixBySix\Float\Entity\Project;
-use SixBySix\Float\Entity\Task;
+use SixBySix\FloatPM\Entity\Person;
+use SixBySix\FloatPM\Entity\Project;
+use SixBySix\FloatPM\Entity\Task;
 
 $people = Person::getAll();
 
@@ -55,6 +67,9 @@ We have covered the following entities:
 
 
 ## Changelist
+
+### v0.0.2
+- Changed 'Float' to 'FloatPM' as PHP 7.2 uses 'Float' as a special class name [Cannot use SixBySix\Float as Float because 'Float' is a special class name]
 
 ### v0.0.1
 - First commit

@@ -1,6 +1,6 @@
 <?php
 
-namespace SixBySix\Float\Entity;
+namespace SixBySix\FloatPM\Entity;
 
 use JMS\Serializer\Annotation\Groups;
 use JMS\Serializer\Annotation\Type;
@@ -38,14 +38,14 @@ class Person extends AbstractResourceEntity
 
     /**
      * @var Department[]
-     * @Type("array<SixBySix\Float\Entity\Department>")
+     * @Type("array<SixBySix\FloatPM\Entity\Department>")
      * @Groups({"get", "add", "update"})
      */
     protected $departments;
 
     /**
      * @var Skill[]
-     * @Type("array<SixBySix\Float\Entity\Skill>")
+     * @Type("array<SixBySix\FloatPM\Entity\Skill>")
      * @Groups({"get", "add", "update"})
      */
     protected $skills;

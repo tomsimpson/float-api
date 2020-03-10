@@ -1,8 +1,8 @@
 <?php
 
-namespace SixBySix\Float\Tests\Entity;
+namespace SixBySix\FloatPM\Tests\Entity;
 
-use SixBySix\Float\Entity\Client;
+use SixBySix\FloatPM\Entity\Client;
 
 class ClientTest extends AbstractEntityTest
 {

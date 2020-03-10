@@ -1,8 +1,8 @@
 <?php
 
-namespace SixBySix\Float\Tests\Entity;
+namespace SixBySix\FloatPM\Tests\Entity;
 
-use SixBySix\Float\Entity\Department;
+use SixBySix\FloatPM\Entity\Department;
 
 class DepartmentTest extends AbstractEntityTest
 {

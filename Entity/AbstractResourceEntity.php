@@ -1,9 +1,9 @@
 <?php
 
-namespace SixBySix\Float\Entity;
+namespace SixBySix\FloatPM\Entity;
 
 use JMS\Serializer\SerializationContext;
-use SixBySix\Float\FloatClient;
+use SixBySix\FloatPM\FloatClient;
 
 abstract class AbstractResourceEntity extends AbstractEntity
 {

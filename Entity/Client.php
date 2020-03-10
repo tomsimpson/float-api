@@ -1,6 +1,6 @@
 <?php
 
-namespace SixBySix\Float\Entity;
+namespace SixBySix\FloatPM\Entity;
 
 use JMS\Serializer\Annotation\Groups;
 use JMS\Serializer\Annotation\Type;

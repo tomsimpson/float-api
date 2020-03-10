@@ -1,10 +1,10 @@
 <?php
 
-namespace SixBySix\Float\Entity;
+namespace SixBySix\FloatPM\Entity;
 
 use JMS\Serializer\Annotation\Groups;
 use JMS\Serializer\Annotation\Type;
-use SixBySix\Float\FloatClient;
+use SixBySix\FloatPM\FloatClient;
 
 class Milestone extends AbstractResourceEntity
 {

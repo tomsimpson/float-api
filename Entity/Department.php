@@ -1,12 +1,12 @@
 <?php
 
-namespace SixBySix\Float\Entity;
+namespace SixBySix\FloatPM\Entity;
 
 use JMS\Serializer\Annotation\Accessor;
 use JMS\Serializer\Annotation\Groups;
 use JMS\Serializer\Annotation\Type;
 use JMS\Serializer\Annotation\SerializedName;
-use SixBySix\Float\FloatClient;
+use SixBySix\FloatPM\FloatClient;
 
 class Department extends AbstractResourceEntity
 {

@@ -1,11 +1,11 @@
 <?php
 
-namespace SixBySix\Float\Tests\Entity;
+namespace SixBySix\FloatPM\Tests\Entity;
 
-use SixBySix\Float\Entity\Person;
-use SixBySix\Float\Entity\Project;
-use SixBySix\Float\Entity\Task;
-use SixBySix\Float\Exception\EntityNotFoundException;
+use SixBySix\FloatPM\Entity\Person;
+use SixBySix\FloatPM\Entity\Project;
+use SixBySix\FloatPM\Entity\Task;
+use SixBySix\FloatPM\Exception\EntityNotFoundException;
 
 class TaskTest extends AbstractEntityTest
 {

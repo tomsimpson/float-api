@@ -1,9 +1,9 @@
 <?php
 
-namespace SixBySix\Float\Tests\Entity;
+namespace SixBySix\FloatPM\Tests\Entity;
 
-use SixBySix\Float\Entity\Account;
-use SixBySix\Float\Entity\Project;
+use SixBySix\FloatPM\Entity\Account;
+use SixBySix\FloatPM\Entity\Project;
 
 class ProjectTest extends AbstractEntityTest
 {

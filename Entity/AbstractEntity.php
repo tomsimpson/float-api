@@ -1,13 +1,13 @@
 <?php
 
-namespace SixBySix\Float\Entity;
+namespace SixBySix\FloatPM\Entity;
 
 use JMS\Serializer\DeserializationContext;
 use JMS\Serializer\SerializationContext;
 use JMS\Serializer\Serializer;
 use JMS\Serializer\SerializerBuilder;
-use SixBySix\Float\Exception;
-use SixBySix\Float\FloatClient;
+use SixBySix\FloatPM\Exception;
+use SixBySix\FloatPM\FloatClient;
 use YaLinqo\Enumerable;
 
 abstract class AbstractEntity

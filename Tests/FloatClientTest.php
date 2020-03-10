@@ -1,9 +1,9 @@
 <?php
 
-namespace SixBySix\Float\Tests;
+namespace SixBySix\FloatPM\Tests;
 
 use PHPUnit\Framework\TestCase;
-use SixBySix\Float\FloatClient;
+use SixBySix\FloatPM\FloatClient;
 
 class FloatClientTest extends TestCase
 {

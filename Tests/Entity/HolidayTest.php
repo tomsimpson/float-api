@@ -1,8 +1,8 @@
 <?php
 
-namespace SixBySix\Float\Tests\Entity;
+namespace SixBySix\FloatPM\Tests\Entity;
 
-use SixBySix\Float\Entity\Holiday;
+use SixBySix\FloatPM\Entity\Holiday;
 
 class HolidayTest extends AbstractEntityTest
 {

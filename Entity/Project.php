@@ -1,10 +1,10 @@
 <?php
 
-namespace SixBySix\Float\Entity;
+namespace SixBySix\FloatPM\Entity;
 
 use JMS\Serializer\Annotation\Groups;
 use JMS\Serializer\Annotation\Type;
-use SixBySix\Float\FloatClient;
+use SixBySix\FloatPM\FloatClient;
 
 class Project extends AbstractResourceEntity
 {
@@ -108,7 +108,7 @@ class Project extends AbstractResourceEntity
 
     /**
      * @var Account[]
-     * @Type("array<SixBySix\Float\Entity\Account>")
+     * @Type("array<SixBySix\FloatPM\Entity\Account>")
      * @Groups({"get", "update", "add"})
      */
     protected $projectManagers;

@@ -1,7 +1,7 @@
 {
     "name": "6by6/float-api",
     "description": "PHP API for the Float Resourcing App",
-    "version": "0.0.2",
+    "version": "0.0.21",
     "type": "library",
     "license": "MIT",
     "authors": [
@@ -18,7 +18,7 @@
     },
     "autoload" : {
         "psr-4" : {
-            "SixBySix\\Float\\" : ""
+            "SixBySix\\FloatPM\\" : ""
         }
     },
     "require-dev": {

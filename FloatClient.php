@@ -1,6 +1,6 @@
 <?php
 
-namespace SixBySix\Float;
+namespace SixBySix\FloatPM;
 
 use GuzzleHttp\Client as GuzzleClient;
 use GuzzleHttp\Psr7\Response;

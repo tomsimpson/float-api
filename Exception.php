@@ -1,6 +1,6 @@
 <?php
 
-namespace SixBySix\Float;
+namespace SixBySix\FloatPM;
 
 class Exception extends \Exception
 {

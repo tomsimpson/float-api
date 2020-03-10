@@ -1,8 +1,8 @@
 <?php
 
-namespace SixBySix\Float\Exception;
+namespace SixBySix\FloatPM\Exception;
 
-use SixBySix\Float\Exception;
+use SixBySix\FloatPM\Exception;
 
 class EntityNotFoundException extends Exception
 {

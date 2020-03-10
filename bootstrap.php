@@ -2,4 +2,4 @@
 
 require_once __DIR__ . '/vendor/autoload.php';
 
-SixBySix\Float\Package::registerAnnotations();
+SixBySix\FloatPM\Package::registerAnnotations();

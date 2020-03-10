@@ -1,10 +1,10 @@
 <?php
 
-namespace SixBySix\Float\Tests\Entity;
+namespace SixBySix\FloatPM\Tests\Entity;
 
 use PHPUnit\Framework\TestCase;
-use SixBySix\Float\Entity\AbstractEntity;
-use SixBySix\Float\FloatClient;
+use SixBySix\FloatPM\Entity\AbstractEntity;
+use SixBySix\FloatPM\FloatClient;
 
 abstract class AbstractEntityTest extends TestCase
 {
